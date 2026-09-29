@@ -1,0 +1,12 @@
+[package]
+name = "rsandbox-unix"
+description = "Internal Unix plumbing shared by the rsandbox backends (rlimits, process-group lifetime, bounded output capture)"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+rsandbox-core.workspace = true
+libc.workspace = true

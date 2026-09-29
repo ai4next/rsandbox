@@ -1,0 +1,13 @@
+[package]
+name = "rsandbox-backend-process"
+description = "Portable process-level backend for rsandbox (rlimits, env scrubbing, lifetime control)"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+rsandbox-core.workspace = true
+rsandbox-unix.workspace = true
+libc.workspace = true

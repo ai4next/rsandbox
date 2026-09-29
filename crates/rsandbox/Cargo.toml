@@ -1,0 +1,16 @@
+[package]
+name = "rsandbox"
+description = "Secure, lightweight sandbox runtime for large-scale agent workloads"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+rsandbox-core.workspace = true
+rsandbox-backend-process.workspace = true
+rsandbox-backend-linux.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true
